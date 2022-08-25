@@ -1,0 +1,149 @@
+.main {
+  flex-grow: 1;
+}
+
+.form__search {
+  /* Fluid rectangle. It preserves its proportion. */
+  /* The padding is relative to parent's width. */
+  height: 0;
+  width: 100%;
+  padding-top: 5.75%;
+  padding-bottom: 5.75%;
+  background-image: url(./backgroundImg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .form__search {
+    height: auto;
+    background-image: none;
+    padding-top: 0;
+    padding-bottom: 8px;
+  }
+}
+
+.search-bar {
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  background-color: #ffffff;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 768px) {
+  .search-bar {
+    width: 100%;
+  }
+}
+
+.search-bar__input {
+  font-family: 'Poppins', 'Material Icons', -apple-system, BlinkMacSystemFont,
+    'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
+    'Droid Sans', 'Helvetica Neue', sans-serif;
+  color: #b9bdcf;
+  background-color: #ffffff;
+  padding: 16px;
+  border-radius: 4px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  flex-grow: 1;
+}
+
+.search-bar__input::placeholder {
+  color: #b9bdcf;
+}
+
+.search-bar__button {
+  background-color: #1e86ff;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+  color: #ffffff;
+  border-radius: 4px;
+  margin: 3px;
+  padding: 0 48px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+  .search-bar__button {
+    padding: 0 24px;
+  }
+}
+
+section {
+  display: flex;
+  gap: 32px;
+}
+
+@media only screen and (max-width: 768px) {
+  section {
+    gap: 23px;
+    flex-wrap: wrap;
+  }
+}
+
+.full-time-filter {
+  display: inline-block;
+  margin: 30px 0;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 2.1rem;
+  color: #334680;
+}
+
+.full-time-filter__field {
+  margin-right: 6px;
+}
+
+.radio-filters {
+  display: flex;
+  flex-direction: column;
+}
+
+.radio-filters__legend {
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 2.1rem;
+  text-transform: uppercase;
+  color: #b9bdcf;
+  margin-bottom: 14px;
+}
+
+.location-text {
+  font-size: 1.2rem;
+  font-family: 'Poppins', 'Material Icons', -apple-system, BlinkMacSystemFont,
+    'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
+    'Droid Sans', 'Helvetica Neue', sans-serif;
+  color: #b9bdcf;
+  line-height: 1.4rem;
+  background-color: #ffffff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 24px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.location-text::placeholder {
+  color: #b9bdcf;
+}
+
+.location-radio:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.location-radio__input {
+  margin-right: 6px;
+}

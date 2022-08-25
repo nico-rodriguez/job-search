@@ -1,0 +1,37 @@
+.job-page__aside {
+  flex: 1 1 20%;
+}
+
+.aside__link-back {
+  color: #1e86ff;
+  display: flex;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.aside__link-back,
+.aside__link-back span {
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 2.1rem;
+}
+
+.aside__title {
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 2.1rem;
+  text-transform: uppercase;
+  color: #b9bdcf;
+  margin-bottom: 16px;
+}
+
+.aside__content {
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 2.1rem;
+  color: #334680;
+}
+
+.aside__content a {
+  color: #1e86ff;
+}

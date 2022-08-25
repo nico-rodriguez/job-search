@@ -1,0 +1,10 @@
+.no-match-page {
+  flex-grow: 1;
+}
+
+.no-match-page__back-link {
+  color: #1e86ff;
+  display: flex;
+  align-items: center;
+  margin-bottom: 32px;
+}

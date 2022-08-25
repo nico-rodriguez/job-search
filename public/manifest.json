@@ -1,0 +1,15 @@
+{
+  "short_name": "Job Search",
+  "name": "Browse jobs",
+  "icons": [
+    {
+      "src": "devchallenges.png",
+      "sizes": "53x53",
+      "type": "image/png"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

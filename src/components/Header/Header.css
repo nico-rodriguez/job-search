@@ -1,0 +1,14 @@
+.header {
+  margin-bottom: 32px;
+}
+
+.header__text {
+  font-weight: 400;
+  font-size: 2.4rem;
+  line-height: 3.6rem;
+  color: #282538;
+}
+
+.header__text strong {
+  font-weight: 700;
+}
