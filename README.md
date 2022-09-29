@@ -16,6 +16,8 @@
   </h3>
 </div>
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/9c2cda4d-0d40-4dcb-a94e-d0c18492d5fb/deploy-status)](https://app.netlify.com/sites/job-search-26a082/deploys)
+
 ## Overview
 
 Visit [https://job-search-26a082.netlify.app/](https://job-search-26a082.netlify.app/).
@@ -24,21 +26,21 @@ Visit [https://job-search-26a082.netlify.app/](https://job-search-26a082.netlify
 
 Home page
 
-![screenshot](./screenshot-desktop-home.png)
+![screenshot](./doc-images/screenshot-desktop-home.png)
 
 Job page
 
-![screenshot](./screenshot-desktop-job.png)
+![screenshot](./doc-images/screenshot-desktop-job.png)
 
 ### Mobile
 
 Home page
 
-![screenshot](./screenshot-mobile-home.png)
+![screenshot](./doc-images/screenshot-mobile-home.png)
 
 Job page
 
-![screenshot](./screenshot-mobile-job.png)
+![screenshot](./doc-images/screenshot-mobile-job.png)
 
 ### Built With
 
